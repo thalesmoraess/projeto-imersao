@@ -3,9 +3,9 @@
 
 /* Estiliza o corpo da página */
 body {
-    background-image: ;
+    background-image: url(images/JBxCC-Look-02-0056-V2-copy.jpg);
     font-family: "Poppins", sans-serif; /* Define a fonte padrão */
-    background-color: #DDDDDD; /* Cor de fundo da página */
+    background-color: #EDD046; /* Cor de fundo da página */
     display: flex; /* Usa Flexbox para layout */
     flex-direction: column; /* Alinha os itens na vertical */
     align-items: center; /* Centraliza os itens horizontalmente */
@@ -13,13 +13,16 @@ body {
     height: 100vh; /* Preenche a altura total da viewport */
     margin: 0;
     padding: 0;
+    background-size: cover;
 }
 
 
 /* Estiliza os títulos h1 */
 h1 {
+    font-family: "Poppins", sans-serif;
     font-size: 2.8rem; /* Tamanho da fonte */
-    color: rgb(255, 183, 0); /* Cor do texto */
+    font-weight: 500;
+    color: gray; /* Cor do texto */
     text-align: center; /* Alinha o texto ao centro */
     letter-spacing: 0.4rem; /* Espaçamento entre letras */
 }
@@ -49,8 +52,8 @@ section button {
     padding: 0.8rem 1.2rem; /* Espaçamento interno do botão */
     border: none; /* Remove a borda padrão */
     border-radius: 1.5rem; /* Borda arredondada */
-    background-color: rgb(255, 183, 0); /* Cor de fundo do botão */
-    color: #F5F7F8; /* Cor do texto do botão */
+    background-color: gray; /* Cor de fundo do botão */
+    color: rgba(0, 0, 0, 0.781); /* Cor do texto do botão */
     font-size: 1rem; /* Tamanho da fonte */
     cursor: pointer; /* Muda o cursor para indicar que é clicável */
 }
@@ -69,23 +72,24 @@ section button {
 .item-resultado {
     font-family: "Poppins", sans-serif;
     font-size: 0.960rem;
-    background: #FFFFFF; /* Cor de fundo dos itens */
+
     border-radius: 0.6rem; /* Borda arredondada */
     padding: 1%; /* Espaçamento interno */
     margin-bottom: 1rem; /* Espaçamento abaixo dos itens */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.445); /* Sombra leve */
 }
 
 /* Estiliza os títulos dentro dos itens de resultado */
 .item-resultado h2 {
     font-size: 1.425rem; /* Tamanho da fonte */
-    color: rgb(255, 183, 0); /* Cor do texto */
+    color: rgba(0, 0, 0, 0.781); /* Cor do texto */
 }
 
 /* Estiliza os links dentro dos itens de resultado */
 .item-resultado a {
     text-decoration: none; /* Remove o sublinhado padrão dos links */
-    color: rgb(255, 183, 0); /* Cor do texto dos links */
+    color: gray; /* Cor do texto dos links */
+    font-weight: 600;
 }
 
 /* Estiliza os links quando são passados o mouse sobre */
@@ -95,15 +99,14 @@ section button {
 
 /* Estiliza a descrição meta dentro dos itens de resultado */
 .descricao-meta {
-    color: #45474B; /* Cor do texto */
+    color: #DDDDDD; /* Cor do texto */
     margin: 0.5rem 0; /* Margem acima e abaixo */
 }
 
 /* Estiliza o rodapé da página */
 footer {
     font-family: "Poppins", sans-serif;
-    background-color: #F5F7F8; /* Cor de fundo do rodapé */
-    color: #45474B; /* Cor do texto */
+    color: white; /* Cor do texto */
     text-align: center; /* Alinha o texto ao centro */
     padding: 0; /* Espaçamento interno */
     width: 100%; /* Largura total da página */
