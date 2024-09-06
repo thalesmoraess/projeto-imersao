@@ -25,7 +25,7 @@ h1 {
     font-family: "Roboto Slab", serif;
     font-size: 3rem; /* Tamanho da fonte */
     font-weight: 700;
-    color: black; /* Cor do texto */
+    color: #DDDDDD; /* Cor do texto */
     text-align: center; /* Alinha o texto ao centro */
     letter-spacing: 0.4rem; /* Espaçamento entre letras */
 }
@@ -40,7 +40,7 @@ section {
 
 /* Estiliza os inputs dentro das seções */
 section input {
-    background-color: black;
+    background-color: #DDDDDD;
     width: 30rem; /* Largura dos inputs */
     border: none; /* Remove a borda padrão */
     padding: 1rem; /* Espaçamento interno */
@@ -53,11 +53,11 @@ section input {
 
 /* Estiliza os botões dentro das seções */
 section button {
-    background-color: black;
+    background-color: #DDDDDD;
     padding: 0.8rem 1.2rem; /* Espaçamento interno do botão */
     border: none; /* Remove a borda padrão */
     border-radius: 1.5rem; /* Borda arredondada */
-    color: white; /* Cor do texto do botão */
+    color: #45474B; /* Cor do texto do botão */
     font-size: 1rem; /* Tamanho da fonte */
     cursor: pointer; /* Muda o cursor para indicar que é clicável */
 }
@@ -113,10 +113,10 @@ footer {
     color: white; /* Cor do texto */
     text-align: center; /* Alinha o texto ao centro */
     padding: 0; /* Espaçamento interno */
-    width: 20%; /* Largura total da página */
+    width: 100%; /* Largura total da página */
     border-radius: 10px;
     position: absolute; /* Posiciona o rodapé */
     bottom: 0; /* Alinha ao fundo da página */
     font-size: 0.8rem; /* Tamanho da fonte */
-    backdrop-filter: blur(15px);
+    backdrop-filter: blur(5px);
 }
