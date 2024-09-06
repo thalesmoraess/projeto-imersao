@@ -5,7 +5,7 @@
 
 /* Estiliza o corpo da página */
 body {
-    background-image: url(images/6580d61a8edecb04f30c45db_Central-Cee-new-music_.png);
+    background-image: url(images/JBxCC-Look-02-0056-V2-copy.jpg);
     font-family: "Poppins", sans-serif; /* Define a fonte padrão */
     background-color: #DDDDDD; /* Cor de fundo da página */
     display: flex; /* Usa Flexbox para layout */
@@ -28,7 +28,6 @@ h1 {
     color: black; /* Cor do texto */
     text-align: center; /* Alinha o texto ao centro */
     letter-spacing: 0.4rem; /* Espaçamento entre letras */
-    margin
 }
 
 /* Estiliza as seções da página */
@@ -41,23 +40,24 @@ section {
 
 /* Estiliza os inputs dentro das seções */
 section input {
+    background-color: black;
     width: 30rem; /* Largura dos inputs */
     border: none; /* Remove a borda padrão */
     padding: 1rem; /* Espaçamento interno */
     border-radius: 1.5rem; /* Borda arredondada */
     margin-bottom: 1rem; /* Espaçamento abaixo dos inputs */
-    color: #45474B; /* Cor do texto */
+    color: white; /* Cor do texto */
     font-size: 1rem; /* Tamanho da fonte */
     box-sizing: border-box; /* Inclui padding e border na largura total */
 }
 
 /* Estiliza os botões dentro das seções */
 section button {
+    background-color: black;
     padding: 0.8rem 1.2rem; /* Espaçamento interno do botão */
     border: none; /* Remove a borda padrão */
     border-radius: 1.5rem; /* Borda arredondada */
-    backdrop-filter: blur(50px);
-    color: black; /* Cor do texto do botão */
+    color: white; /* Cor do texto do botão */
     font-size: 1rem; /* Tamanho da fonte */
     cursor: pointer; /* Muda o cursor para indicar que é clicável */
 }
@@ -76,7 +76,7 @@ section button {
 .item-resultado {
     font-family: "Poppins", sans-serif;
     font-size: 0.960rem;
-    backdrop-filter: blur(50px);
+    backdrop-filter: blur(15px);
     border-radius: 0.6rem; /* Borda arredondada */
     padding: 1%; /* Espaçamento interno */
     margin-bottom: 1rem; /* Espaçamento abaixo dos itens */
@@ -86,7 +86,7 @@ section button {
 /* Estiliza os títulos dentro dos itens de resultado */
 .item-resultado h2 {
     font-size: 1.425rem; /* Tamanho da fonte */
-    color: black; /* Cor do texto */
+    color: white; /* Cor do texto */
 }
 
 /* Estiliza os links dentro dos itens de resultado */
@@ -110,11 +110,13 @@ section button {
 /* Estiliza o rodapé da página */
 footer {
     font-family: "Poppins", sans-serif;
-    color: black; /* Cor do texto */
+    color: white; /* Cor do texto */
     text-align: center; /* Alinha o texto ao centro */
     padding: 0; /* Espaçamento interno */
-    width: 100%; /* Largura total da página */
+    width: 20%; /* Largura total da página */
+    border-radius: 10px;
     position: absolute; /* Posiciona o rodapé */
     bottom: 0; /* Alinha ao fundo da página */
-    font-size: 0.9rem; /* Tamanho da fonte */
+    font-size: 0.8rem; /* Tamanho da fonte */
+    backdrop-filter: blur(15px);
 }
