@@ -1,14 +1,20 @@
-// console.log(dados)
+function pesquisar() {
+    let section = document.getElementById("resultados-pesquisa")
+    console.log(section);
 
-let section = document.getElementById("resultados-pesquisa")
-console.log(section);
+    let resultados = ""
 
-section.innerHTML = `
+    for (let dado of dados) {
+    resultados += `
     <div class="item-resultado">
         <h2>
-            <a href="#" target="_blank">Let Go</a>
+            <a href="#" target="_blank">${dado.title}</a>
         </h2>
-        <p class="descricao-meta">'Let Go' é uma das faixas de maior sucesso do rapper. A música, marcada por um ritmo envolvente e letras sinceras, aborda temas como relacionamentos, ciúmes e a dificuldade de seguir em frente após um término.</p>
-        <a href="https://www.youtube.com/watch?v=BqucGvLxrEk" target="_blank">Ouça aqui</a>
+        <p class="descricao-meta">${dado.description}</p>
+        <a href="${dado.link}" target="_blank">Ouça aqui</a>
     </div>
 `
+}
+
+section.innerHTML = resultados
+}
